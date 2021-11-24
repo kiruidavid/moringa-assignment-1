@@ -1,14 +1,17 @@
 *{
     padding: 0; 
-    margin: 0;
-} 
+    margin: 0; 
+   
+}
 .wrapper{
-    background: url('assests/background/hero.jpg') no-repeat; 
-    background-size: cover; 
-    height: 101vh;
+    background: url('assests/background/hero.jpg');  
+   
+    background-size: 100%; 
+    height: 101vh; 
+    width: 100%;
 } 
 .navbar{
-    position: fixed; 
+   
     height: 80px; 
     width: 100%; 
     top: 0; 
@@ -73,18 +76,9 @@
     width: 100%; 
     display: flex; 
     flex-direction: row; 
-
-   
-    
-    
-   
 } 
 .section-one input{
     font-size: 89px; 
-    
-    
-   
-
 } 
 .section-one label{
     font-size: 35px; 
@@ -96,7 +90,128 @@
 .section-one button{
     background-color: brown; 
     color: white;  
+    margin-left: 70px;
+    border: none; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+} 
+.products{
+    margin: 86px;
+} 
+h2{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+.products #men::after{
+    content: " " ; 
+    flex: 1 1;
+    border-bottom: 3px solid gray; 
+    margin: auto; 
+    margin-left: 10px;
+} 
+.onetofive_right{
     float: right; 
-    font-size: 26px;
+    font-size: 23px; 
+    margin: 3%; 
+} 
+#icons{
+    float: right; 
+    margin: 12%;
+} 
+.item-container { 
+   position: relative;
+   width: 80%; 
+   margin: 12%; 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: flex-start; 
+   flex-wrap: wrap; 
+} 
+.item{ 
+    flex-basis: 28%; 
+    padding: 10px; 
+    margin-bottom: 30px; 
+    background-color: rgba(128, 128, 128, 0.623); 
+    border-radius: 5px; 
+    width: 100%;
+    height: 50vh; 
+    position: relative;
+} 
+#size{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+   
+} 
+#size h3{
+   float: right;
+} 
+
+#circle1{
+   margin-left: 53%;
+    background-color: rgba(21, 128, 0, 0.781); 
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;
+}  
+#circle2{
+
+     background-color: rgba(0, 45, 128, 0.918); 
+     border-radius: 50%; 
+     width: 20px; 
+     height: 20px;
+ }  
+ #circle3{
+     background-color: black; 
+     border-radius: 50%; 
+     width: 20px; 
+     height: 20px;
+ }  
+.item img{ 
+   display: block; 
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 60%;
+
+} 
+#price{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    margin: 13%; 
+    font-weight: bold;
+}  
+#pants{
+    height: 60%; 
+    width: 50%;
+} 
+#bag{ 
+    height: 60%; 
+    width: 50%;
+
+} 
+.products #women::before{
+    content: " " ; 
+    flex: 1 1;
+    border-bottom: 3px solid gray; 
+    margin: auto; 
+    margin-right: 10px;
+} 
+.onetofive_left{ 
+    float: left; 
+    font-size: 23px; 
+    margin: 3%; 
 
 }
+
+
+
+
+
+
+
