@@ -10,9 +10,9 @@ body{
 }
 .wrapper{
     background: url('assests/background/hero.jpg') no-repeat center ;  
-    background-size: 100%; 
-    overflow: hidden;
-    height: 101vh; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
     width: 100%;
 } 
 .navbar{
@@ -47,33 +47,47 @@ body{
 }  
 .wrapper .center{
     position: absolute; 
-    left: 22%; 
+    left: 20%; 
     top: 40%; 
     font-family: Arial, Helvetica, sans-serif; 
     
 } 
 .center h2{
     color: white; 
-    font-size: 45px; 
+    font-size: 65px; 
     width: 900px; 
     font-weight: bold; 
-    text-align: center;
+    text-align: center; 
+    
 } 
 .center .p1{
     text-align: center; 
     color: white; 
-    font-weight: bold; 
+    font-weight: bold;  
     font-size: 25px; 
-    margin-top: 10px;
+    
+    
+} 
+.center img{
+    margin-top: 14%; 
+    margin-right: 34%;
 }  
 .center .p2{ 
     text-align: center; 
     color: white; 
     font-weight: bold; 
     font-size: 20px; 
-   
-
 } 
+.center .scroll-down{
+    position: absolute; 
+    left: 35%; 
+    top: 58%;  
+    margin: 12%;
+    cursor: pointer; 
+    background-color: transparent; 
+    z-index: 2; 
+} 
+
 .section-one{ 
     background-color: rgba(245, 233, 179, 0.658); 
     height: 78px; 
